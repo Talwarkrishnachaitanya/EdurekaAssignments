@@ -1,0 +1,8 @@
+To debug: 
+
+Stop DWS
+In this path - C:\Windows\System32\config\systemprofile\AppData\Local\Nuance\Integrated\DWS\webserver\conf\DWSSettings.properties
+Add this property - filterDeviceRequests=false
+start dws service
+
+https://nats-auto-303.qaloo.ca:8444/DwsMain/currentView?DEVICE_PRODUCT_NAME=devicename&DEVICE_UNIQUE_ID=A92G011000729
